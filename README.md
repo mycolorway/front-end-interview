@@ -39,7 +39,7 @@ end
 
 __3. 假设以上 controller 并未修改，你是否可以写一个 filter, 并运用于 create, archive, vote 三个 action 中使其整个 action 被包在 transaction 中__
 
-__4. 下图中，.container和.box的高度和宽度都是浮动的、不确定的，再编写一段CSS，让.box元素在水平方向和竖直方向相对于.container容器居中，要求至少采用三种不同的实现方式，并分析它们的使用场景和优缺点__
+__4. 下图中，.container和.box的高度和宽度都是浮动的、不确定的，编写一段CSS，让.box元素在水平方向和竖直方向相对于.container容器居中，要求至少采用三种不同的实现方式，并分析它们的使用场景和优缺点__
 
 要求：不能引入除了.box和.container以外的元素辅助布局
 
