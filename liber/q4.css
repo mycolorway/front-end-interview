@@ -1,0 +1,56 @@
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #dddddd;
+  background-color: white;
+}
+
+/* css3-transform */
+.css3-transform .box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* display-table-cell */
+.display-table-cell {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.display-table-cell .container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.display-table-cell .box {
+  margin: 0 auto;
+}
+
+/* display-flex */
+.display-flex .container {
+  display: flex;
+  align-items: center;
+}
+
+.display-flex .box {
+  margin: 0 auto;
+}
