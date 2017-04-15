@@ -50,9 +50,9 @@ __5. 继续上一题，请使用CoffeeScript和Sass编写代码，实现切换.b
 要求：
 * 实现这样的交互动画：显示的时候从下往上移动一段距离到居中，同时opacity从0到1变化；隐藏的时候从居中位置往下移动一段距离，同时opacity从1变化到0
 * 隐藏状态下，.box的`display`需要设置为`none`
-* 不能使用setTimeout方法
+* 使用css trasition实现动画交互，不能使用setTimeout方法
 * 合理设计，让代码易读、易维护、易扩展
 
-__6. 观察下面的截图，从视觉设计上考虑，有哪些地方做的不好，应该怎样改进？__
+__6. 观察下面的截图，只从视觉设计上考虑，有哪些地方做的不好，应该怎样改进？__
 
 ![question 6](https://raw.githubusercontent.com/mycolorway/front-end-interview/master/images/q6.png)
